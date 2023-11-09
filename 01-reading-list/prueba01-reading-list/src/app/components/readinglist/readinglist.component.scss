@@ -1,0 +1,16 @@
+aside {
+  margin-top: 5vw;
+  padding: 2vw 4vw;
+  border: 1px solid var(--grey);
+  border-radius: 2vw;
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.644);
+
+  h2 {
+    text-decoration: underline;
+    margin-bottom: 2vw;
+  }
+
+  ul li {
+    list-style: none;
+  }
+}

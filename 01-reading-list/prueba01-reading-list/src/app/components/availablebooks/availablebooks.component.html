@@ -1,0 +1,13 @@
+<main>
+  <h1>Libros disponibles</h1>
+  <section>
+    <article
+      *ngFor="let element of library"
+      (click)="saveBook(element.book.ISBN)"
+    >
+      <div>
+        <img src="{{ element.book.cover }}" alt="{{ element.book.title }}" />
+      </div>
+    </article>
+  </section>
+</main>

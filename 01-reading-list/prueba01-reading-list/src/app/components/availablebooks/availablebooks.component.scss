@@ -1,0 +1,23 @@
+main {
+  margin-top: 5vw;
+  padding: 2vw 4vw;
+
+  h1 {
+    margin-bottom: 2vw;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+    width: 50vw;
+
+    article {
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 1vw;
+      }
+    }
+  }
+}
